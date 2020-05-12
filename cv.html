@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Roman Fedyuk</title>
+    <meta name="description" content="Hi there. I am a web developer with a passion of the internet and the digital world, and I’m proud to make contribution in its ongoing development by building quality web sites and promoting accessibility and usability. My expertise mostly lies in wordpress development." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <style>
+      @font-face {
+  font-family: "Octicons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("data:font/woff;base64,d09GRgABAAAAAAWgAAsAAAAABVQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxIMrGNtYXAAAAFoAAAAXAAAAFzxE/EEZ2FzcAAAAcQAAAAIAAAACAAAABBnbHlmAAABzAAAAXwAAAF8tFkZ3GhlYWQAAANIAAAANgAAADYYMkpraGhlYQAAA4AAAAAkAAAAJAfBA8dobXR4AAADpAAAABgAAAAYDAAAAWxvY2EAAAO8AAAADgAAAA4A5gBgbWF4cAAAA8wAAAAgAAAAIAAKAFBuYW1lAAAD7AAAAZIAAAGSxxxndHBvc3QAAAWAAAAAIAAAACAAAwAAAAMCqwGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA8NcDwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEAEAAAAAMAAgAAgAEAAEAIPBS8Nf//f//AAAAAAAg8FLw1//9//8AAf/jD7IPLgADAAEAAAAAAAAAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAwAIAAsAAGwAAEzQ3PgE3NjMyFx4BFxYVFAcOAQcGIyInLgEnJgAUFEYvLjU1Li9GFBQUFEYvLjU1Li9GFBQBwDUuL0YUFBQURi8uNTUuL0YUFBQURi8uAAMAAQCZA/8DDgAzAEEATQAAAQcFHgEVFAYHBQYiJyUVHgEVFAYHHgEdARQiPQE0NjcuATU0Njc1Jy4BNTQ2NyUyNjMyFgEXIxYyPwEVFAYjIiY1ExQWMzI2NTQmIyIGAgcBAekHCQkH/hcDBwP+xw4SBQQEBYAFBAQFEg5vBwkJBwHpAgMCAQT++vUBBgwF9ZZqapbBJhobJSUbGiYDDQGZAgwHCAwCmAEBYl0IHRIJEAcHEAmlGhqlCRAHBxAJER4IcSQCCwgICwKZAQH+s0wCAkygMDAwMAFADRMTDQ0TEwAAAAEAAAABAADtMnsXXw889QALBAAAAAAA2oqDMAAAAADaioMwAAAAAAP/Aw4AAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA/8AAQAAAAAAAAAAAAAAAAAAAAYEAAAAAAAAAAAAAAACAAAAAgAAAAQAAAEAAAAAAAoAFAAeAEwAvgAAAAEAAAAGAE4AAwAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAIAAAAAQAAAAAAAgAHAGkAAQAAAAAAAwAIADkAAQAAAAAABAAIAH4AAQAAAAAABQALABgAAQAAAAAABgAIAFEAAQAAAAAACgAaAJYAAwABBAkAAQAQAAgAAwABBAkAAgAOAHAAAwABBAkAAwAQAEEAAwABBAkABAAQAIYAAwABBAkABQAWACMAAwABBAkABgAQAFkAAwABBAkACgA0ALBvY3RpY29ucwBvAGMAdABpAGMAbwBuAHNWZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADBvY3RpY29ucwBvAGMAdABpAGMAbwBuAHNvY3RpY29ucwBvAGMAdABpAGMAbwBuAHNSZWd1bGFyAFIAZQBnAHUAbABhAHJvY3RpY29ucwBvAGMAdABpAGMAbwBuAHNGb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") format("woff");
+}
+html {
+  font-size: 14px;
+  margin: 0;
+}
+body {
+  background: #fff;
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+a {
+  color: #0366d6;
+}
+a:focus,
+a:hover {
+  color: #f1c40f;
+  text-decoration: underline;
+}
+section {
+  margin-top: 1.2rem;
+}
+ul{
+  margin-bottom: 0;
+}
+li {
+  line-height: 1.8;
+  list-style: none;
+}
+li:before {
+  content: "\f052";
+  float: left;
+  font: 13px Octicons;
+  margin-top: 6px;
+  margin-left: -20px;
+  opacity: .1;
+  position: absolute;
+}
+blockquote {
+  border-left: 5px solid #e7e9ec;
+  font-size: 1rem;
+}
+em {
+  color: #95a5a6;
+  font-weight: normal;
+  font-style: normal;
+}
+h4 span:first-child {
+  font-weight: bold;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+.col-sm-6 {
+  margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+  margin-top: 1rem;
+}
+.col-sm-12 + .col-sm-12 {
+  margin-top: 2rem;
+}
+.keywords {
+  padding: 0;
+}
+.keywords > li {
+  display: inline-block;
+  background: #f4f6f6;
+  margin: 0 4px 4px 0;
+  padding: 2px 8px;
+}
+.keywords > li:before {
+  content: none;
+}
+#header {
+  background: #f4f6f6;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+}
+#header h2 {
+  color: #95a5a6;
+}
+#content h3 {
+  color: #95a5a6;
+}
+#content aside {
+  text-align: right;
+  padding-right: 2rem;
+}
+#work .position,
+#volunteer .position {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+#education .area {
+  font-weight: bold;
+}
+#education .area:before {
+  content: "\f0d7";
+  font: 16px Octicons;
+  margin-right: 6px;
+  vertical-align: bottom;
+}
+#education .studyType {
+  margin-left: 25px;
+}
+#awards .summary,
+#publications .summary,
+#projects .description {
+  margin-top: 8px;
+}
+#publications .website a:before {
+  content: attr(href);
+}
+#interests .row,
+#skills .row {
+  display: block;
+}
+#interests .col-sm-6,
+#skills .col-sm-6 {
+  float: left;
+}
+
+@media (min-width: 480px) {
+  .strike-through {
+    border-top: 1px solid #f4f6f6;
+    height: 20px;
+    margin-top: 12px;
+    margin-bottom: -2px;
+    position: relative;
+  }
+  .strike-through span,
+  .strike-through a {
+    background: #fff;
+    position: absolute;
+  }
+  .strike-through span:first-child {
+    padding-right: 20px;
+    margin-top: -12px;
+  }
+  .strike-through span + span {
+    font-size: 1rem;
+    margin-top: -10px;
+    padding-left: 20px;
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .col-sm-6:last-child {
+    margin-bottom: 0;
+  }
+  #content aside {
+    margin-bottom: 20px;
+    padding-right: 0;
+    text-align: left;
+  }
+  #publications .website a:before {
+    content: "View publication";
+  }
+}
+@media (max-width: 480px) {
+  .date {
+    font-size: 1rem;
+  }
+  .strike-through span:first-child {
+    margin-bottom: 7px;
+  }
+  .strike-through span {
+    display: block;
+  }
+  #header {
+    margin-bottom: 10px;
+    padding: 40px 0;
+  }
+  #actions {
+    display: none;
+  }
+}
+
+aside img{
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+aside.avatar{
+  text-align: right;
+}
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <aside class="col-sm-2 avatar">
+              <img src="https://lh3.googleusercontent.com/vm2TUax3qH-cHOJCqeh7Zds6uQYRxFoo4JaMDxE_8eq2QUOvvV9OFmLOPm22PuL2w4oSN1AcxnU8COioqiCBCA5Yn-4IQOZat9-XKgp34sToJJi_T31_qEPfuRDVvk7TIm3wzzGLZFiJ3IFfKjtwbNaEfa_2ug0xIrXloujt0uoNtBtoGrbuCBd7Ky1dtoS7nzGxYke5dcGBHrOp02665gdnrxqUuQtlpYk0rmIbJs9xmi8D2PQsUFGE6UH0E0Td90VPJwxvkeA2pfG2FD-IFilzjElaKIMiEh0WUixBINe4Xz8NGz7guNANjkATqJUrpGKZphaXG5Wxqxs0DcL_Sg-uw44dgayB6WY1jaOEeDKqWfe7GK2OceRxFqD5SQ8GrzLGaC-UW18Oi4Ugul16zrUhkAJveZMMzxOdekVbDlIRLMR6UJbvalT0Pz2hfzKDQRA9su5EtIS89DqzsLHjSE3WHjUjj2TN8JSKAsrwuUwiFjbgyCS27YioXrcatAHU97bcWTiOAK5DQVvQfRjUyzuwiBxUdnqLKfYZWvIiB_SnZ4stLf9l-GhEeDmARvaee5fs1EedFEB8C4YJY2wAlG2ZtNUMVp3g6dibf4HGbyc6KoSMDaw32SH8hjOcNgBPFvNyS3Lhmd4IQwkLQQGMMlompiPJ3fvOxSUoCliI4W0R7dQQWYihXv0RwuvlJQYC-ZvlXBF1ND9dey-TFDZZx8KUUjbd2FFu_zsfbiqyO1sx7m8LMUme1w&#x3D;s536-no?authuser&#x3D;0" alt="" />
+          </aside>
+          <div class="col-sm-10">
+                <h1>Roman Fedyuk</h1>
+                <h2>Full Stack Wordpress Developer</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="content" class="container">
+        <section id="contact" class="row">
+          <aside class="col-sm-2">
+            <h3>Contact</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-4">
+                  <strong>Email</strong>
+                  <div class="email">
+                    <a href="mailto:romananas@gmail.com">romananas@gmail.com</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <strong>Phone</strong>
+                  <div class="phone">
+                    +38 093 320 25 92
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <strong>Website</strong>
+                  <div class="website">
+                    <a href="http://jomko.github.io" target="_blank">jomko.github.io</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+          <section id="about" class="row">
+            <aside class="col-sm-2">
+              <h3>About</h3>
+            </aside>
+            <div class="col-sm-10">
+              <p>Hi there. I am a web developer with a passion of the internet and the digital world, and I’m proud to make contribution in its ongoing development by building quality web sites and promoting accessibility and usability. My expertise mostly lies in wordpress development.</p>
+            </div>
+          </section>
+        
+      
+        <section id="skills" class="row">
+          <aside class="col-sm-2">
+            <h3>Skills</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="name">
+                      <h4>Web Development</h4>
+                    </div>
+                    <ul class="keywords">
+                      <li>html is for semantic, and css is for design</li><li>javascript is for jquery, and for nodejs for sure</li><li>php is good when it is mvc, but wordpress is good enough without</li><li>apache is good webserver, but nginx is better on highload</li><li>mysql is for databases storage, but mariadb is better on performance</li><li>git is for version control</li><li>vagrant is for local development</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="row">
+          <aside class="col-sm-2">
+            <h3>Work</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Independent Web Developer </span>
+                    <span class="date">
+                      2008 — Present
+                    </span>
+                  </h4>
+                    <div class="website float-right">
+                      <a href="http://jomko.github.io" target="_blank">jomko.github.io</a>
+                    </div>
+                    <div class="position">
+                      Files Maker
+                    </div>
+                    <div class="summary">
+                      <p>During this years  I have developed several thousand beautiful handmade files. This has helped their customers in their business.</p>
+                    </div>
+                    <h4>Highlights</h4>
+                    <ul class="highlights">
+                        <li class="bullet">bookforum.ua — implement and maintain multisite content management system with custom content types and custom user roles;</li>
+                        <li class="bullet">medoroby.com.ua — 3D-perspective scrolling promo site, frontend development;</li>
+                        <li class="bullet">bbc-bau.eu — frontend development;</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Hostadvice</span>
+                    <span class="date">
+                      2018 — 2019
+                    </span>
+                  </h4>
+                    <div class="website float-right">
+                      <a href="http://hostadvice.com" target="_blank">hostadvice.com</a>
+                    </div>
+                    <div class="position">
+                      Wordpress Developer
+                    </div>
+                    <div class="summary">
+                      <p>Working in team of 3 another developers on building new website features and seeks out existing functionality to meet client needs.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Qubstudio</span>
+                    <span class="date">
+                      2013 — 2014
+                    </span>
+                  </h4>
+                    <div class="website float-right">
+                      <a href="http://qubstudio.com" target="_blank">qubstudio.com</a>
+                    </div>
+                    <div class="position">
+                      Frontend Developer
+                    </div>
+                    <div class="summary">
+                      <p>Frontend development on a ticket service system written on ruby on rails.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="volunteer" class="row">
+          <aside class="col-sm-2">
+            <h3>Volunteer</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Fete de la Musique Lviv</span>
+                    <span class="date">
+                      2012 — Present
+                    </span>
+                  </h4>
+                    <div class="website float-right">
+                      <a href="http://fetedelamusique.lviv.ua" target="_blank">fetedelamusique.lviv.ua</a>
+                    </div>
+                    <div class="position">
+                      Tech Support
+                    </div>
+                    <div class="summary">
+                      <p>Global musical event that takes place annually on the day of the summer solstice on June 21st</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="row">
+          <aside class="col-sm-2">
+            <h3>Education</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Lviv Polytechnic National University</span>
+                    <span class="date">
+                      1994 — 1998
+                    </span>
+                  </h4>
+                    <div class="area">
+                      Electrical Power Engineering
+                    </div>
+                    <div class="studyType">
+                      Bachelor
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="awards" class="row">
+          <aside class="col-sm-2">
+            <h3>Awards</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="strike-through">
+                    <span>Site of the Day</span>
+                  </h4>
+                    <div class="date float-right">
+                      <em>Awarded</em>
+                      2013
+                    </div>
+                    <div class="awarder">
+                      <em>by</em>
+                      <strong>Awwwards</strong>
+                    </div>
+                    <div class="summary">
+                      Scrolling promo site for an app. Frontend development for Keepa Studio. Check it out — awwwards.com/sites/yep
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="languages" class="row">
+          <aside class="col-sm-2">
+            <h3>Languages</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="language">
+                      <strong>Ukrainian</strong>
+                    </div>
+                    <div class="fluency">
+                      Native speaker
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="language">
+                      <strong>Russian</strong>
+                    </div>
+                    <div class="fluency">
+                      Native speaker
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="language">
+                      <strong>French</strong>
+                    </div>
+                    <div class="fluency">
+                      Fluent
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="language">
+                      <strong>English</strong>
+                    </div>
+                    <div class="fluency">
+                      Conversational
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="interests" class="row">
+          <aside class="col-sm-2">
+            <h3>Interests</h3>
+          </aside>
+          <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="name">
+                      <h4></h4>
+                    </div>
+                    <ul class="keywords">
+                      <li>wildlife</li><li>travel</li><li>reading</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </section>
+
+    </div>
+  </body>
+</html>
